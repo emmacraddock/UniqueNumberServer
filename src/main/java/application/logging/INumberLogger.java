@@ -1,9 +1,9 @@
 package application.logging;
 
 public interface INumberLogger {
-    public void start();
+    void start();
 
-    public void incrementCurrentDupes();
+    void incrementCurrentDupes();
 
-    public void incrementUnique();
+    void incrementUnique();
 }
